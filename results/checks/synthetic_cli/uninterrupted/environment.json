@@ -1,0 +1,20 @@
+{
+  "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "13th Gen Intel(R) Core(TM) i5-13420H",
+  "device": "cpu",
+  "precision": "float32",
+  "seed": 1005,
+  "threads": 2,
+  "logical_cpus": 12,
+  "versions": {
+    "torch": "2.9.1",
+    "torchvision": "0.24.1",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.7.2",
+    "scikit-image": "0.26.0",
+    "matplotlib": "3.10.8",
+    "scipy": "1.18.1",
+    "pillow": "13.0.0"
+  }
+}

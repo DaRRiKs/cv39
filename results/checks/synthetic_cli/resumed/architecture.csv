@@ -1,0 +1,13 @@
+layer,operation,input,output,parameters
+conv1,"Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1))","[1, 1, 28, 28]","[1, 6, 24, 24]",156
+relu1,ReLU(),"[1, 6, 24, 24]","[1, 6, 24, 24]",0
+pool1,"MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)","[1, 6, 24, 24]","[1, 6, 12, 12]",0
+conv2,"Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))","[1, 6, 12, 12]","[1, 16, 8, 8]",2416
+relu2,ReLU(),"[1, 16, 8, 8]","[1, 16, 8, 8]",0
+pool2,"MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)","[1, 16, 8, 8]","[1, 16, 4, 4]",0
+flatten,"Flatten(start_dim=1, end_dim=-1)","[1, 16, 4, 4]","[1, 256]",0
+fc1,"Linear(in_features=256, out_features=120, bias=True)","[1, 256]","[1, 120]",30840
+relu3,ReLU(),"[1, 120]","[1, 120]",0
+fc2,"Linear(in_features=120, out_features=84, bias=True)","[1, 120]","[1, 84]",10164
+relu4,ReLU(),"[1, 84]","[1, 84]",0
+fc3,"Linear(in_features=84, out_features=10, bias=True)","[1, 84]","[1, 10]",850

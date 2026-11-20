@@ -1,0 +1,7 @@
+{
+  "power_watts": null,
+  "tariff_per_kwh": null,
+  "currency": null,
+  "formula": "power_watts / 1000 * seconds / 3600 * tariff_per_kwh",
+  "items": []
+}

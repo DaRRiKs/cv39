@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\Users\darri\PycharmProjects\39cv\train.py", line 193, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\darri\PycharmProjects\39cv\train.py", line 53, in main
+    base, train, val = cv.split_data(args.dataset)
+                       ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\darri\PycharmProjects\39cv\cvkit.py", line 124, in split_data
+    base = load_base(name)
+  File "C:\Users\darri\PycharmProjects\39cv\cvkit.py", line 120, in load_base
+    return cls("data", train=train, download=True)
+  File "C:\Users\darri\PycharmProjects\39cv\.venv\Lib\site-packages\torchvision\datasets\mnist.py", line 100, in __init__
+    self.download()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\darri\PycharmProjects\39cv\.venv\Lib\site-packages\torchvision\datasets\mnist.py", line 197, in download
+    raise RuntimeError(s)
+RuntimeError: Error downloading train-images-idx3-ubyte.gz:
+Tried https://ossci-datasets.s3.amazonaws.com/mnist/, got:
+<urlopen error [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение>
+Tried http://yann.lecun.com/exdb/mnist/, got:
+<urlopen error [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение>
+

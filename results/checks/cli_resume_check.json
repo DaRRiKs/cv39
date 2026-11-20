@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "scope": "Synthetic code integration only; 20 synthetic training images. NOT a MNIST experiment or the required real resume.",
+  "processes": [
+    {
+      "process": 0,
+      "exit_code": 0
+    },
+    {
+      "process": 1,
+      "exit_code": 0
+    },
+    {
+      "process": 2,
+      "exit_code": 0
+    }
+  ],
+  "checks": [
+    "train.py completes configured budget",
+    "separate process resume after epoch 7",
+    "weights and numerical logs match uninterrupted execution bitwise",
+    "15 unique epochs and continuous cosine scheduler",
+    "DataLoader and augmentation RNG match"
+  ],
+  "artifact_directory": "results\\checks\\synthetic_cli"
+}

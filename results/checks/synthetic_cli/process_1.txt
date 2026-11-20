@@ -1,0 +1,35 @@
+LeNet5(
+  (conv1): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1))
+  (relu1): ReLU()
+  (pool1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (relu2): ReLU()
+  (pool2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (flatten): Flatten(start_dim=1, end_dim=-1)
+  (fc1): Linear(in_features=256, out_features=120, bias=True)
+  (relu3): ReLU()
+  (fc2): Linear(in_features=120, out_features=84, bias=True)
+  (relu4): ReLU()
+  (fc3): Linear(in_features=84, out_features=10, bias=True)
+)
+{"parameters": 44426, "trainable_parameters": 44426, "parameter_bytes": 177704, "initial_weights_sha256": "22edcb729b6922e68aabe68ffda105a5e1866275c9054c925d25338a4c568251"}
+conv1 [1, 1, 28, 28] -> [1, 6, 24, 24]
+relu1 [1, 6, 24, 24] -> [1, 6, 24, 24]
+pool1 [1, 6, 24, 24] -> [1, 6, 12, 12]
+conv2 [1, 6, 12, 12] -> [1, 16, 8, 8]
+relu2 [1, 16, 8, 8] -> [1, 16, 8, 8]
+pool2 [1, 16, 8, 8] -> [1, 16, 4, 4]
+flatten [1, 16, 4, 4] -> [1, 256]
+fc1 [1, 256] -> [1, 120]
+relu3 [1, 120] -> [1, 120]
+fc2 [1, 120] -> [1, 84]
+relu4 [1, 84] -> [1, 84]
+fc3 [1, 84] -> [1, 10]
+mnist/rotate10 epoch 01/15: train=0.10000 val=0.15000 loss=2.30491 lr=0.100000 seconds=0.08
+mnist/rotate10 epoch 02/15: train=0.15000 val=0.10000 loss=2.30487 lr=0.098907 seconds=0.01
+mnist/rotate10 epoch 03/15: train=0.10000 val=0.10000 loss=2.30484 lr=0.095677 seconds=0.02
+mnist/rotate10 epoch 04/15: train=0.15000 val=0.10000 loss=2.30518 lr=0.090451 seconds=0.00
+mnist/rotate10 epoch 05/15: train=0.10000 val=0.10000 loss=2.30544 lr=0.083457 seconds=0.00
+mnist/rotate10 epoch 06/15: train=0.10000 val=0.10000 loss=2.30550 lr=0.075000 seconds=0.01
+mnist/rotate10 epoch 07/15: train=0.10000 val=0.10000 loss=2.30563 lr=0.065451 seconds=0.01
+STOP saved epoch 7; resume in a separate process

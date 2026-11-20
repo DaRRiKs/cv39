@@ -1,0 +1,20 @@
+{
+  "cvkit.py": {
+    "sha256": "e83d859c0cd17b62d9812b983e20582f892918cfc53a4507b5d6c96a9b8186a0",
+    "syntax_valid": true,
+    "comments": false,
+    "docstrings": false
+  },
+  "train.py": {
+    "sha256": "00e6be8e4e3742fecca73187d5e078f929861fe84f21bf16b33c3a934574b7ce",
+    "syntax_valid": true,
+    "comments": false,
+    "docstrings": false
+  },
+  "evaluate.py": {
+    "sha256": "5da67af77dfbf0539cc6efcd4ba95fb79722b8fe98e222f15a8e436aa35a0d8c",
+    "syntax_valid": true,
+    "comments": false,
+    "docstrings": false
+  }
+}

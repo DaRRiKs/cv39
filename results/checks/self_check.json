@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "LeNet logits shape 2x10; 44426 parameters",
+    "Raw 256 and HOG 144 features on synthetic shapes",
+    "kNN probabilities and serialization",
+    "Synthetic optimizer/scheduler/RNG resume gives bitwise identical next update",
+    "Grad-CAM autograd works in eval mode",
+    "Noise and deterministic 5x5 Gaussian blur APIs"
+  ],
+  "scope": "synthetic functional checks only; not MNIST training, real resume, accuracy or latency"
+}

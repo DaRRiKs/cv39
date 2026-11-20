@@ -1,0 +1,12 @@
+{
+  "mean_ms": 0.24735800000000002,
+  "fps": 4042.723501968806,
+  "warmup": 20,
+  "measured": 100,
+  "batch_size": 1,
+  "device": "cpu",
+  "precision": "float32",
+  "cpu": "13th Gen Intel(R) Core(TM) i5-13420H",
+  "threads": 2,
+  "scope": "model forward only; excludes loading, normalization, softmax and file I/O"
+}

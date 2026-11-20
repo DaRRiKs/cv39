@@ -1,0 +1,10 @@
+{
+  "epochs": 15,
+  "best_epoch": 1,
+  "best_accuracy": 0.15,
+  "epoch_seconds_sum": 0.30174260027706623,
+  "train_seconds_sum": 0.26717490050941706,
+  "best_checkpoint_bytes": 397371,
+  "best_weights_bytes": 181845,
+  "last_weights_bytes": 181845
+}

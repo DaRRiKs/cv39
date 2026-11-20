@@ -1,0 +1,40 @@
+{
+  "dataset": "mnist",
+  "model": "LeNet5",
+  "aug": "rotate10",
+  "epochs": 15,
+  "batch_size": 128,
+  "optimizer": "SGD",
+  "lr": 0.1,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "scheduler": "CosineAnnealingLR",
+  "T_max": 15,
+  "eta_min": 0,
+  "seed": 1005,
+  "device": "cpu",
+  "precision": "float32",
+  "threads": 2,
+  "num_workers": 0,
+  "early_stopping": false,
+  "normalization": {
+    "mean": 0.5,
+    "std": 0.25,
+    "source": "SYNTHETIC CODE TEST ONLY"
+  },
+  "rotation": {
+    "range_degrees": [
+      -10,
+      10
+    ],
+    "interpolation": "bilinear",
+    "fill": 0,
+    "independent_per_image": true,
+    "align_corners": false
+  },
+  "split_sha256": "dc4153319e9bccfa13fd8bede7f74b6a24d4a889e370e0bf704fadd63e10a3c7",
+  "selection": "best val accuracy; ties keep earlier epoch",
+  "transfer_endpoint": null,
+  "throughput_scope": "train images / train loop wall seconds",
+  "epoch_time_scope": "train loop plus validation on all monitored domains"
+}

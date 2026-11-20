@@ -1,0 +1,46 @@
+{
+  "seed": 1005,
+  "device": "cpu",
+  "threads": 2,
+  "precision": "float32",
+  "datasets": [
+    "torchvision.datasets.MNIST",
+    "torchvision.datasets.KMNIST"
+  ],
+  "split": "official train: stratified 90/10, random_state=1005; official test preserved",
+  "normalization": "mean and population std from MNIST train only; same for both domains",
+  "main": {
+    "aug": "rotate10",
+    "epochs": 15,
+    "batch_size": 128,
+    "lr": 0.1,
+    "optimizer": "SGD",
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "scheduler": "cosine T_max=15",
+    "early_stopping": false
+  },
+  "control": "same initialization and settings; aug=none",
+  "resume": "rotate10 stops after epoch 7, resumes to epoch 15 in a separate process",
+  "finetune": {
+    "epochs": 10,
+    "lr": 0.01,
+    "optimizer": "SGD",
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "batch_size": 128,
+    "scheduler": "cosine T_max=10",
+    "aug": "rotate10",
+    "early_stopping": false,
+    "endpoint": "last.pt"
+  },
+  "test_selection": [
+    "raw kNN",
+    "HOG kNN",
+    "none/best.pt",
+    "rotate10/best.pt",
+    "kmnist/last.pt"
+  ],
+  "power_watts": null,
+  "tariff_per_kwh": null
+}

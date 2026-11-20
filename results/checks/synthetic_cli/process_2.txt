@@ -1,0 +1,9 @@
+RESUME epoch=8, lr=0.055226423
+mnist/rotate10 epoch 08/15: train=0.15000 val=0.10000 loss=2.30588 lr=0.055226 seconds=0.13
+mnist/rotate10 epoch 09/15: train=0.20000 val=0.05000 loss=2.30620 lr=0.044774 seconds=0.01
+mnist/rotate10 epoch 10/15: train=0.15000 val=0.00000 loss=2.30620 lr=0.034549 seconds=0.01
+mnist/rotate10 epoch 11/15: train=0.30000 val=0.05000 loss=2.30616 lr=0.025000 seconds=0.01
+mnist/rotate10 epoch 12/15: train=0.35000 val=0.10000 loss=2.30613 lr=0.016543 seconds=0.01
+mnist/rotate10 epoch 13/15: train=0.30000 val=0.10000 loss=2.30614 lr=0.009549 seconds=0.00
+mnist/rotate10 epoch 14/15: train=0.30000 val=0.10000 loss=2.30613 lr=0.004323 seconds=0.00
+mnist/rotate10 epoch 15/15: train=0.30000 val=0.10000 loss=2.30612 lr=0.001093 seconds=0.00

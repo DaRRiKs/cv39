@@ -1,0 +1,52 @@
+[
+  {
+    "command": [
+      "C:\\Users\\darri\\PycharmProjects\\39cv\\.venv\\Scripts\\python.exe",
+      "-m",
+      "py_compile",
+      "cvkit.py",
+      "train.py",
+      "evaluate.py"
+    ],
+    "exit_code": 0,
+    "log": "results\\checks\\final_command_00.txt"
+  },
+  {
+    "command": [
+      "C:\\Users\\darri\\PycharmProjects\\39cv\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pip",
+      "check"
+    ],
+    "exit_code": 0,
+    "log": "results\\checks\\final_command_01.txt"
+  },
+  {
+    "command": [
+      "C:\\Users\\darri\\PycharmProjects\\39cv\\.venv\\Scripts\\python.exe",
+      "train.py",
+      "--help"
+    ],
+    "exit_code": 0,
+    "log": "results\\checks\\final_command_02.txt"
+  },
+  {
+    "command": [
+      "C:\\Users\\darri\\PycharmProjects\\39cv\\.venv\\Scripts\\python.exe",
+      "evaluate.py",
+      "--help"
+    ],
+    "exit_code": 0,
+    "log": "results\\checks\\final_command_03.txt"
+  },
+  {
+    "command": [
+      "C:\\Users\\darri\\PycharmProjects\\39cv\\.venv\\Scripts\\python.exe",
+      "evaluate.py",
+      "--report",
+      "--check"
+    ],
+    "exit_code": 2,
+    "log": "results\\checks\\final_command_04.txt"
+  }
+]

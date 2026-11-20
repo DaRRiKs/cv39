@@ -1,0 +1,8 @@
+{
+  "parameters": 44426,
+  "trainable_parameters": 44426,
+  "parameter_bytes": 177704,
+  "initial_weights_sha256": "22edcb729b6922e68aabe68ffda105a5e1866275c9054c925d25338a4c568251",
+  "initial_weights_file_bytes": 181893,
+  "trained": false
+}

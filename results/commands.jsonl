@@ -1,0 +1,6 @@
+{"time": "2026-11-19T17:35:55+0500", "event": "command", "argv": ["evaluate.py", "--self-check"], "executable": "C:\\Users\\darri\\PycharmProjects\\39cv\\.venv\\Scripts\\python.exe"}
+{"time": "2026-11-19T17:39:16+0500", "event": "command", "argv": ["evaluate.py", "--prepare"], "executable": "C:\\Users\\darri\\PycharmProjects\\39cv\\.venv\\Scripts\\python.exe"}
+{"time": "2026-11-19T17:41:58+0500", "event": "command", "argv": ["evaluate.py", "--self-check"], "executable": "C:\\Users\\darri\\PycharmProjects\\39cv\\.venv\\Scripts\\python.exe"}
+{"time": "2026-11-19T17:42:03+0500", "event": "command", "argv": ["train.py", "--dataset", "mnist", "--aug", "none", "--out_dir", "results/none"], "executable": "C:\\Users\\darri\\PycharmProjects\\39cv\\.venv\\Scripts\\python.exe"}
+{"time": "2026-11-19T17:42:13+0500", "event": "command", "argv": ["evaluate.py", "--report", "--check"], "executable": "C:\\Users\\darri\\PycharmProjects\\39cv\\.venv\\Scripts\\python.exe"}
+{"time": "2026-11-19T17:46:19+0500", "event": "command", "argv": ["evaluate.py", "--report", "--check"], "executable": "C:\\Users\\darri\\PycharmProjects\\39cv\\.venv\\Scripts\\python.exe"}

@@ -1,0 +1,22 @@
+{
+  "complete": false,
+  "problems": [],
+  "pending": [
+    "MNIST: EDA и train/val индексы",
+    "Лист обработки на 3 изображениях",
+    "Raw+kNN, полный train",
+    "HOG+kNN, полный train",
+    "Абляция none/rotate10",
+    "none: 15 эпох, логи, checkpoints",
+    "rotate10: 15 эпох, логи, checkpoints",
+    "Реальное продолжение основного прогона",
+    "Все ошибки, пары, метрики",
+    "Robustness: четыре отдельных искажения",
+    "Grad-CAM и визуальный разбор",
+    "KMNIST: исходная модель, эпоха 0, адаптация/забывание",
+    "Latency CPU: 20+100",
+    "Экономика с явными исходными данными",
+    "Единый финальный test"
+  ],
+  "meaning": "Artifact/consistency checks; visual interpretations require human inspection"
+}

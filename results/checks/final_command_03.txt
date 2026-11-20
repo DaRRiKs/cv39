@@ -1,0 +1,33 @@
+usage: evaluate.py [-h] [--prepare] [--self-check] [--classical {raw,hog,all}]
+                   [--ckpt CKPT] [--dataset {mnist,kmnist}] [--model {lenet}]
+                   [--split {val}] [--seed {1005}] [--threads THREADS]
+                   [--out_dir OUT_DIR] [--processing] [--errors] [--gradcam]
+                   [--robustness] [--latency] [--plots] [--review-templates]
+                   [--final-test] [--report] [--check]
+                   [--power-watts POWER_WATTS]
+                   [--tariff-per-kwh TARIFF_PER_KWH]
+
+options:
+  -h, --help            show this help message and exit
+  --prepare
+  --self-check
+  --classical {raw,hog,all}
+  --ckpt CKPT
+  --dataset {mnist,kmnist}
+  --model {lenet}
+  --split {val}
+  --seed {1005}
+  --threads THREADS
+  --out_dir OUT_DIR
+  --processing
+  --errors
+  --gradcam
+  --robustness
+  --latency
+  --plots
+  --review-templates
+  --final-test
+  --report
+  --check
+  --power-watts POWER_WATTS
+  --tariff-per-kwh TARIFF_PER_KWH

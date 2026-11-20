@@ -1,0 +1,15 @@
+.venv/
+.idea/
+.wheels/
+.mplconfig/
+__pycache__/
+data/
+
+# Original assignment, lectures, and example materials
+*.doc
+*.docx
+*.odt
+/results/materials/
+
+# Temporary synthetic check directories
+/results/checks/synthetic_cli_*/

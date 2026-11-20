@@ -1,0 +1,8 @@
+{
+  "n": 120,
+  "accuracy": 0.5,
+  "top3_accuracy": 0.5666666666666667,
+  "macro_f1": 0.13320162983084333,
+  "errors": 60,
+  "top3_tie_rule": "descending probability, ascending class index"
+}

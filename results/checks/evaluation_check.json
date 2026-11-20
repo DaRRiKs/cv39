@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "scope": "Synthetic rendering/API integration only. No MNIST or KMNIST measurements.",
+  "checks": [
+    "metrics and normalized confusion matrix saved",
+    "all 60 deliberately assigned synthetic errors appear in two galleries",
+    "five correct and five wrong Grad-CAM arrays and figures saved",
+    "four corruptions evaluated separately",
+    "latency code executes 20 warmups and 100 measurements"
+  ],
+  "artifact_directory": "results\\checks\\synthetic_evaluation"
+}

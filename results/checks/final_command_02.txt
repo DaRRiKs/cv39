@@ -1,0 +1,26 @@
+usage: train.py [-h] [--dataset {mnist,kmnist}] [--model {lenet}]
+                [--aug {none,rotate10}] [--epochs EPOCHS]
+                [--batch-size BATCH_SIZE] [--optimizer {sgd}] [--lr LR]
+                [--momentum MOMENTUM] [--weight-decay WEIGHT_DECAY]
+                [--scheduler {cosine}] [--seed {1005}] [--threads THREADS]
+                --out_dir OUT_DIR [--resume RESUME] [--init INIT]
+                [--stop-after STOP_AFTER]
+
+options:
+  -h, --help            show this help message and exit
+  --dataset {mnist,kmnist}
+  --model {lenet}
+  --aug {none,rotate10}
+  --epochs EPOCHS
+  --batch-size BATCH_SIZE
+  --optimizer {sgd}
+  --lr LR
+  --momentum MOMENTUM
+  --weight-decay WEIGHT_DECAY
+  --scheduler {cosine}
+  --seed {1005}
+  --threads THREADS
+  --out_dir OUT_DIR
+  --resume RESUME
+  --init INIT
+  --stop-after STOP_AFTER
